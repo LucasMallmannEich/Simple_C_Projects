@@ -1,1 +1,13 @@
-a
+Utilizando Funções
+
+Proposta:
+
+Criar uma calculadora que efetue os seguintes cálculos: adição, subtração, multiplicação e divisão.
+
+Resolução:
+
+Primeiramente, criei uma função para cada uma das 4 operações.   
+Elas têm como parâmetro de entrada dois números do tipo 'float' e retornam o número resultante da operação deles.   
+Feito isso, pedi ao usuário digitar dois valores do tipo 'float' e perguntei a ele qual das 4 operações deseja realizar.   
+Utilizei um switch case para cada um dos casos e chamei a sua respectiva função, passando como parâmetros as duas variáveis informadas pelo usuário anteriormente.
+  
