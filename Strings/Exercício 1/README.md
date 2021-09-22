@@ -11,7 +11,7 @@ Resolução:
   + Essa função retorna um número inteiro.
   + Seu parâmetro é um vetor de caracteres (uma string).
   + Dentro dela, utilizei um "loop for" para verificar se o caractere em uma certa posição da string (passada como parâmetro), é igual à '\0'.
-  + Se o caractere for '\0', ele encerra o "loop for"; se não, ele encrementa 1 à variável "tamanho", que definirá o tamanho da string.]
+  + Se o caractere for '\0', ele encerra o "loop for"; se não, ele encrementa 1 à variável "tamanho", que definirá o tamanho da string.
   + Retorna essa variável "tamanho" (int).
 
 - Função "void inverte_string(char str[])":
