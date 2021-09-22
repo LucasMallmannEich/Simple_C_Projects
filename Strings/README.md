@@ -1,1 +1,1 @@
-Neste repositório, publico desafios relacionados a strings em C.
+Neste repositório, publico desafios relacionados às strings em C.
