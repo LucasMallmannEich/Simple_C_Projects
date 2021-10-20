@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// NOME: Lucas Mallmann Eich.
-
 // A partir de uma matriz 5x5, criar a matriz transposta.
 // Matriz transposta: as linhas passam a ser as colunas e colunas as linhas.
 // Exibir a matriz original e a matriz transposta.
@@ -13,7 +11,7 @@ int main()
 
     printf("\n");
 
-    // IncializaÁ„o das vari·veis.
+    // Incializa√ß√£o das vari√°veis.
 
     int mat[5][5], mat_modificada[5][5], i, j;
 
@@ -26,7 +24,7 @@ int main()
         }
     }
 
-    // SubstituiÁ„o das linhas pelas colunas.
+    // Substitui√ß√£o das linhas pelas colunas.
 
     for(i=0; i!=5; i++){
         for(j=0; j!=5; j++){
@@ -34,7 +32,7 @@ int main()
         }
     }
 
-    // Impress„o da matriz mat original.
+    // Impress√£o da matriz mat original.
 
     printf("\n");
 
@@ -45,7 +43,7 @@ int main()
         printf("\n");
     }
 
-    // Impress„o da matriz mat modificada.
+    // Impress√£o da matriz mat modificada.
 
     printf("\n");
 
@@ -55,8 +53,6 @@ int main()
         }
         printf("\n");
     }
-
-    printf("Nome: Lucas Mallmann Eich.");
 
     return 0;
 }
