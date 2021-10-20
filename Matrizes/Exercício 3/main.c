@@ -7,10 +7,6 @@
 
 int main()
 {
-    printf("Nome: Lucas Mallmann Eich.");
-
-    printf("\n");
-
     // Incialização das variáveis.
 
     int mat[5][5], mat_modificada[5][5], i, j;
