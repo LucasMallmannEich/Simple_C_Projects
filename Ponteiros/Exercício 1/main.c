@@ -3,12 +3,12 @@
  /*
  int sinal(float *frequencia, float *periodo);
 
- FunÁ„o : Calcula o par‚metro cujo valor È zero.
-    Par‚metros : frequencia ñ ponteiro para o valor de frequencia do sinal
-    periodo ñ ponteiro para o valor do periodo do sinal
-    Retorno : 0 para funÁ„o realizada,
+ Fun√ß√£o : Calcula o par√¢metro cujo valor √© zero.
+    Par√¢metros : frequencia ‚Äì ponteiro para o valor de frequencia do sinal
+    periodo ‚Äì ponteiro para o valor do periodo do sinal
+    Retorno : 0 para fun√ß√£o realizada,
      -1 para erro de parametro (os dois parametros em zero)
-     -2 se os dois par‚metros forem diferentes e 0;
+     -2 se os dois par√¢metros forem diferentes e 0;
 */
 
 int sinal(float *frequencia, float *periodo)
@@ -35,8 +35,6 @@ int sinal(float *frequencia, float *periodo)
 
 int main()
 {
-    printf("\n \t NOME: Lucas Mallmann Eich. \n\n");
-
     int resultado;
     float *frequencia, freq, *periodo, per;
 
@@ -54,8 +52,6 @@ int main()
 
     resultado = sinal(frequencia, periodo);
     printf("%i", resultado);
-
-    printf("\n \t NOME: Lucas Mallmann Eich. \n");
 
     return 0;
 }
