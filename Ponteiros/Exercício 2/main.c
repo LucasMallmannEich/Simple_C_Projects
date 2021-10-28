@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 // int ordena(int *n1, int *n2, int *n3, char ordem);
-// Função: ordena os valores passados em ordem crescente ou decrescente.
-// Parâmetros: n1, n2 e n3 (ponteiros com valores a serem ordenados):
-// Ordem: ‘c’ para ordenamento crescente e ‘d’ para ordenamento decrescente.
-// Pode ser maiúsculo ou minúsculo.
-// Retorno : 0 para função realizada; -1 para erro de parâmetro.
+// FunÃ§Ã£o: ordena os valores passados em ordem crescente ou decrescente.
+// ParÃ¢metros: n1, n2 e n3 (ponteiros com valores a serem ordenados):
+// Ordem: â€˜câ€™ para ordenamento crescente e â€˜dâ€™ para ordenamento decrescente.
+// Pode ser maiÃºsculo ou minÃºsculo.
+// Retorno : 0 para funÃ§Ã£o realizada; -1 para erro de parÃ¢metro.
 
 int ordena(int *n1, int *n2, int *n3, char ordem){
     int maior = -999999999, medio = *n2, menor = 9999999999;
@@ -43,8 +43,6 @@ int ordena(int *n1, int *n2, int *n3, char ordem){
 
 int main()
 {
-    printf("\n \t NOME: Lucas Mallmann Eich. \n\n");
-
     int *n1, num1, *n2, num2, *n3, num3;
     char ordem;
 
@@ -71,7 +69,4 @@ int main()
     int ordenamento = ordena(n1, n2, n3, ordem);
 
     printf("%i", ordenamento);
-
-    printf("\n \t NOME: Lucas Mallmann Eich. \n\n");
-
 }
