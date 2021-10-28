@@ -15,4 +15,4 @@ Após isso, há um bloco de estruturas condicionais, logo, a função retorna:
 
 Em segundo lugar, agora já na função "main", o usuário irá digitar o valor do tipo "float" em duas variáveis diferentes.   
 Os dois ponteiros irão receber os endereços de suas determinadas variáveis informadas pelo usuário.    
-Por fim, é passado os dois ponteiros como parâmetros da função "sinal", que retornará os seus valores determinados na proposta.               
+Por fim, é passado os dois ponteiros como parâmetros da função "sinal", que retornará os valores determinados na proposta.               
