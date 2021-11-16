@@ -1,18 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// FaÁa uma matriz 30x30 que seja inicializada com zero em todas as suas posiÁıes.
+// Fa√ßa uma matriz 30x30 que seja inicializada com zero em todas as suas posi√ß√µes.
 // Imprima a matriz.
-// ApÛs isso, preencha a sua borda com o n˙mero 1.
+// Ap√≥s isso, preencha a sua borda com o n√∫mero 1.
 // Imprima a matriz.
+// Ap√≥s isso, substitua os elementos da diagonal principal por "x" e os elementos da diagonal por "y".
 
 int main()
 {
-    // DeclaraÁ„o das vari·veis:
+    // Declara√ß√£o das vari√°veis:
 
     int matriz[30][30], i, j;
 
-    // InicializaÁ„o da matriz com 0 em todas as suas posiÁıes:
+    // Inicializa√ß√£o da matriz com 0 em todas as suas posi√ß√µes:
 
     for(i=0; i!=30; i++){
         for(j=0; j!=30; j++){
@@ -20,7 +21,7 @@ int main()
         }
     }
 
-    // Impress„o da matriz repleta de zeros.
+    // Impress√£o da matriz repleta de zeros.
 
     for(i=0; i!=30; i++){
         for(j=0; j!=30; j++){
@@ -28,7 +29,7 @@ int main()
         }
     }
 
-    // SubstituiÁ„o do 0 por 1, caso o n˙mero esteja na borda da matriz 30x30.
+    // Substitui√ß√£o do 0 por 1, caso o n√∫mero esteja na borda da matriz 30x30.
 
     for(i=0; i!=30; i++){
         for(j=0; j!=30; j++){
@@ -38,12 +39,56 @@ int main()
         }
     }
 
-    // Impress„o da matriz.
+    // Impress√£o da matriz.
 
     for(i=0; i!=30; i++){
         for(j=0; j!=30; j++){
             printf("%i ", matriz[i][j]);
         }
+        printf("\n");
+    }
+
+    // Altera√ß√£o dos elementos da diagonal principal por "x".
+
+    for(i=0; i!=30; i++){
+        for(j=0; j!=30; j++){
+            if(i==j){
+                matriz[i][j] = 'x';
+        }}
+    }
+
+    // Impress√£o da matriz alterada.
+
+    for(i=0; i!=30; i++){
+        for(j=0; j!=30; j++){
+            if(i==j){
+                printf("%c ", matriz[i][j]);
+            }
+            else{
+                printf("%i ", matriz[i][j]);
+        }}
+        printf("\n");
+    }
+
+    // Altera√ß√£o dos elementos da diagonal secund√°ria por "y".
+
+    for(i=0; i!=30; i++){
+        for(j=0; j!=30; j++){
+            if(i+j==29){
+                matriz[i][j] = 'y';
+        }}
+    }
+
+    // Impress√£o da matriz alterada.
+
+    for(i=0; i!=30; i++){
+        for(j=0; j!=30; j++){
+            if(i==j || i+j==29){
+                printf("%c ", matriz[i][j]);
+            }
+            else{
+                printf("%i ", matriz[i][j]);
+        }}
         printf("\n");
     }
 
