@@ -6,19 +6,19 @@
 
 int main()
 {
-    // Declaração das variáveis:
+    // DeclaraÃ§Ã£o das variÃ¡veis:
 
     int matriz[LINHA][COLUNA], i, j, cont=0, soma_colunas[COLUNA], soma_c=0, soma_linhas[LINHA], soma_l=0;
 
-    // Inicialização da matriz com números aleatórios (até 80):
+    // InicializaÃ§Ã£o da matriz com nÃºmeros aleatÃ³rios (atÃ© 80):
 
     for(i=0; i!=LINHA; i++){
         for(j=0; j!=COLUNA; j++){
-            matriz[i][j] = rand()%10;  // a função rand() gera números aleatórios
+            matriz[i][j] = rand()%80;  // a funÃ§Ã£o rand() gera nÃºmeros aleatÃ³rios
         }
     }
 
-    // Impressão da matriz.
+    // ImpressÃ£o da matriz.
 
     for(i=0; i!=LINHA; i++){
         for(j=0; j!=COLUNA; j++){
