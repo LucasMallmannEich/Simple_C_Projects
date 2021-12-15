@@ -6,12 +6,11 @@
 
 /*
 Criar uma matriz 20x20;
-1) Preencher essa matriz(origem) com números aleatórios menores que 100.
-2) Criar duas outras matrizes, uma chamada par e outra impar e iniciá-las com zero.
-3) Na matriz par, copiar os números pares da matriz origem nas mesmas posições que se encontram na matriz origem.
-4) Na matriz ímpar, copiar os números ímpares da matriz origem nas mesmas posições que se encontram na matriz origem.
-5) Exibir as três matrizes, seu nome e turma.
-Postar o código e um print da tela exibindo o resultado.
+1) Preencher essa matriz(origem) com nÃºmeros aleatÃ³rios menores que 100.
+2) Criar duas outras matrizes, uma chamada par e outra impar e iniciÃ¡-las com zero.
+3) Na matriz par, copiar os nÃºmeros pares da matriz origem nas mesmas posiÃ§Ãµes que se encontram na matriz origem.
+4) Na matriz Ã­mpar, copiar os nÃºmeros Ã­mpares da matriz origem nas mesmas posiÃ§Ãµes que se encontram na matriz origem.
+5) Exibir as trÃªs matrizes.
 */
 
 int main()
@@ -20,7 +19,7 @@ int main()
 
     int matriz[20][20];
 
-    // Preencher essa matriz(origem) com números aleatórios menores que 100:
+    // Preencher essa matriz(origem) com nÃºmeros aleatÃ³rios menores que 100:
 
     for(int i=0; i!=LINHA; i++){
         for(int j=0; j!=COLUNA; j++){
@@ -28,7 +27,7 @@ int main()
         }
     }
 
-    // Criar duas outras matrizes, uma chamada par e outra ímpar e iniciá-las com zero.
+    // Criar duas outras matrizes, uma chamada par e outra Ã­mpar e iniciÃ¡-las com zero.
 
     int par[20][20], impar[20][20];
 
@@ -39,7 +38,7 @@ int main()
         }
     }
 
-    // Na matriz par, copiar os números pares da matriz origem nas mesmas posições que se encontram na matriz origem.
+    // Na matriz par, copiar os nÃºmeros pares da matriz origem nas mesmas posiÃ§Ãµes que se encontram na matriz origem.
 
     for(int i=0; i!=LINHA; i++){
         for(int j=0; j!=COLUNA; j++){
@@ -49,7 +48,7 @@ int main()
         }
     }
 
-    // Na matriz ímpar, copiar os números ímpares da matriz origem nas mesmas posições que se encontram na matriz origem.
+    // Na matriz Ã­mpar, copiar os nÃºmeros Ã­mpares da matriz origem nas mesmas posiÃ§Ãµes que se encontram na matriz origem.
 
     for(int i=0; i!=LINHA; i++){
         for(int j=0; j!=COLUNA; j++){
@@ -59,7 +58,7 @@ int main()
         }
     }
 
-    // Exibir as três matrizes, seu nome e turma.
+    // Exibir as trÃªs matrizes, seu nome e turma.
 
     printf(" Matriz Origem: \n\n");
 
