@@ -2,7 +2,15 @@ Trabalhando com Ponteiros
 
 Proposta:
 
-A proposta do desafio já está inserida, na forma de comentário, no topo do código.
+int sinal(float *frequencia, float *periodo);           
+
+Função: Calcula o parâmetro cujo valor é zero.             
+Parâmetros : frequencia – ponteiro para o valor de frequencia do sinal          
+periodo – ponteiro para o valor do periodo do sinal          
+Retorno : 0 para função realizada,            
+-1 para erro de parametro (os dois parametros em zero)              
+-2 se os dois parâmetros forem diferentes e 0;              
+
 
 Resolução:
 
