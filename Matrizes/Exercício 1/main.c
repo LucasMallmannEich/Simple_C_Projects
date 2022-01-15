@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Elabore um programa que lê valores inteiros para uma matriz a[6][6].
+// Elabore um programa que leia valores inteiros para uma matriz a[6][6].
 // Calcule, a seguir, a soma dos elementos das colunas e linhas, escrevendo esses resultados num vetor.
 // Escreva o vetor resultante.
 
 int main()
 {
-    // Inicializando as variáveis.
+    // Inicializando as variÃ¡veis.
 
     int matriz_a[6][6], i, j, cont=0, soma_colunas[6], soma_c=0, soma_linhas[6], soma_l=0;
 
