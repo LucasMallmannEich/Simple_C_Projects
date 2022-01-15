@@ -2,6 +2,8 @@ Trabalhando com Ponteiros
 
 Proposta:
 
+Faça a seguinte função:          
+
 int sinal(float *frequencia, float *periodo);           
 
 Função: Calcula o parâmetro cujo valor é zero.             
