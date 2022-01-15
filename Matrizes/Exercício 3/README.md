@@ -2,7 +2,9 @@ Utilizando Matrizes
 
 Proposta:
 
-Já está inserida no topo do código, em forma de comentário.
+A partir de uma matriz 5x5, criar a matriz transposta.             
+Matriz transposta: as linhas passam a ser as colunas e colunas as linhas.                   
+Exibir a matriz original e a matriz transposta.                                   
 
 Resolução:
 
