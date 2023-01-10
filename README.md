@@ -1,3 +1,3 @@
-# Simple C Projects
-Repositório que contém meus códigos criados em C.  
-Todos eles possuem um README.md explicando a proposta e o modo de solução encontrada para superar o desafio inicial.
+# Simple C Projects  
+Repository that contains my codes created in C.     
+All of them have a README.md explaining the purpose and the way I was able to find the solution to solve the problem.
